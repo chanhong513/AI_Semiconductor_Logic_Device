@@ -1,0 +1,21 @@
+`define pretrained
+`define numLayers 3
+`define dataWidth 16
+`define numNeuronLayer1 126
+`define numWeightLayer1 784
+`define Layer1ActType "tanh"
+`define numNeuronLayer2 126
+`define numWeightLayer2 126
+`define Layer2ActType "tanh"
+`define numNeuronLayer3 10
+`define numWeightLayer3 126
+`define Layer3ActType "sigmoid"
+//`define numNeuronLayer4 10
+//`define numWeightLayer4 10
+//`define Layer4ActType "sigmoid"
+//`define numNeuronLayer5 10
+//`define numWeightLayer5 10
+`define Layer5ActType "hardmax"
+`define sigmoidSize 10
+`define tanhsize 10
+`define weightIntWidth 4
